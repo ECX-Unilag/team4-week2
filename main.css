@@ -5,6 +5,10 @@ html, body {
 * {
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 @font-face {
     font-family: Open Sans regular;
     src: url('fonts/open-sans/OpenSans-Regular.ttf');
@@ -36,6 +40,9 @@ nav {
     flex-direction: row;
     align-items: center;
     padding: 10px;
+}
+nav a:hover {
+    color: #43FFE3;
 }
 nav .siteName {
     font-family: 'Open Sans semibold', sans-serif;
