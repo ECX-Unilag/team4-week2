@@ -1,0 +1,70 @@
+.wallet-page {
+    width: 100%;
+    margin: 0;
+    padding: 5% 5% 15% 5%;
+}
+.crypto-rank {
+    width: 100%;
+    margin: 0 0 5% 0;
+    padding: 2.5% 9%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.crypto-rank > div > header {
+    color: #333333;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 1.27vw;
+}
+.crypto-rank > div > img {
+    margin: 9.5% 0;
+}
+.current-worth {
+    margin-top: 2.8%;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 1.27vw;
+}
+.crypto-rank .crypto-details {
+    display: flex;
+    width: 150%;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+.title {
+    font-size: 1.22vw;
+    text-align: right;
+}
+.worth {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.worth span:nth-child(1) {
+    font-size: 1.7vw;
+    margin: 1.5% 0;
+}
+.worth span:nth-child(2) {
+    font-size: 1.18vw;
+}
+.fig {
+    color: #009688;
+}
+.ranking {
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 1.22vw;
+}
+.rank {
+    text-align: right;
+}
+.ranking div:nth-child(2) {
+    margin: 4.5% 0;
+    text-align: left;
+}
+.ranking div:nth-child(3) {
+    font-size: 1.4vw;
+}
